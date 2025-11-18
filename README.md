@@ -1,16 +1,53 @@
-# React + Vite
+# Color Clicker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A React-based interactive color clicking game with dynamic color logging.**
 
-Currently, two official plugins are available:
+![Color Clicker Screenshot](link-to-screenshot.png)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Color Clicker is a small interactive web application built with **React** that allows users to click colored squares to generate random colors. Each clicked color is logged and displayed with its corresponding hex value. The app demonstrates proficiency in **React state management, component design, and front-end UI layout**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **Frontend:** React, JSX, CSS  
+- **State Management:** React `useState` hooks  
+- **Version Control:** Git & GitHub  
+
+---
+
+## Key Features
+
+- **Interactive Color Squares:** Click any square to generate a new random color.  
+- **Color Logging:** Every clicked color is displayed below with its hex code.  
+- **Responsive UI:** Layout is centered both vertically and horizontally using **flexbox**.  
+- **Dynamic Color Display:** Real-time updates to the squares and the log.  
+- **Optional Color Name Lookup:** Hex values can be mapped to human-readable color names.  
+
+---
+
+## Learning Outcomes
+
+Building this project helped me strengthen my skills in:  
+
+1. **React Fundamentals** – Components, props, state, and event handling.  
+2. **Front-End Layout** – Using CSS flexbox to center content and align elements.  
+3. **Dynamic UI Updates** – Real-time color changes and logging.  
+4. **Problem Solving** – Handling layout bugs, off-center elements, and dynamic data.  
+5. **Project Structuring** – Creating modular, reusable components (`ColorBox`) and maintaining clean code.  
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ted-Voo/Color-Clicker.git
+cd Color-Clicker
+npm install
+npm start
