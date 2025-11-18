@@ -1,0 +1,61 @@
+/* Center everything vertically and horizontally */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+/* Squares layout */
+.squares {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Log styling */
+.log {
+  max-height: 200px; /* scroll if too many items */
+  overflow-y: auto;
+  width: 300px;
+  text-align: left;
+}
+
+.log-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.color-square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+/* Make sure html and body take full height and remove default margin */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex; /* optional */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  font-family: sans-serif;
+}
+
+/* Your app container now just needs flex-direction and gap */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
