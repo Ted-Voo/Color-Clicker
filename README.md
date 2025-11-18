@@ -2,7 +2,7 @@
 
 **A React-based interactive color clicking game with dynamic color logging.**
 
-![Color Clicker Screenshot](link-to-screenshot.png)  
+![Color Clicker Screenshot](src/assets/Color-Clicker-Picture.png)  
 
 ---
 
